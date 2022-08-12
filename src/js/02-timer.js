@@ -69,7 +69,6 @@ function isTimeReached(currentTime, neededTime) {
 
 function changeTextContent() {
   const delta = chosenDate - Date.now();
-  console.log('delta is:', delta);
   const { days, hours, minutes, seconds } = convertMs(delta);
 
   daysSpan.textContent = addLeadingZero(days);

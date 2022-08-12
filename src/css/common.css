@@ -16,3 +16,15 @@ img {
   display: block;
   max-width: 100%;
 }
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.field:not(:last-child) {
+  margin-right: 50px;
+}
+.value {
+  display: block;
+  font-size: xx-large;
+}
